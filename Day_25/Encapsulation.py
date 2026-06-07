@@ -1,0 +1,1 @@
+# Encapsulation = Wrapping data and function into a single unit(object)

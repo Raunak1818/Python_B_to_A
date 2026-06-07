@@ -1,0 +1,51 @@
+In object-oriented programming (OOP), a **class** and an **object** are two fundamental concepts:
+
+### Class
+
+A **class** is like a blueprint or template used to create objects. It defines properties (variables/attributes) and behaviors (methods/functions).
+
+* Example: Think of a class as a *design of a car*.
+* It doesn’t represent a specific car, but describes what a car will have (color, speed) and what it can do (drive, brake).
+
+```python
+class Car:
+    def __init__(self, color, speed):
+        self.color = color
+        self.speed = speed
+
+    def drive(self):
+        print("Car is moving")
+```
+
+---
+
+### Object
+
+An **object** is an instance of a class. It is a real, usable entity created from the class.
+
+* Example: A specific red car with speed 120 km/h is an object.
+
+```python
+car1 = Car("red", 120)
+car1.drive()
+```
+
+---
+
+### Key Differences
+
+| Class                                       | Object              |
+| ------------------------------------------- | ------------------- |
+| Blueprint/template                          | Instance of class   |
+| Logical concept                             | Real-world entity   |
+| No memory allocated (until objects created) | Occupies memory     |
+| Example: Car                                | Example: My red car |
+
+---
+
+### Simple Analogy
+
+* Class = Cookie cutter 🍪
+* Object = Cookies made from it
+
+---
